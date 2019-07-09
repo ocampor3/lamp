@@ -20,6 +20,7 @@ then
     sudo apt-get -y install php7.0-opcache;
     sudo apt-get -y install php-apcu;
     sudo /etc/init.d/apache2 restart;
+    sudo apt-get update && sudo apt-get upgrade;
 
 #this is for redhat centos or any yum supported linux OS 
 #elif [ "`lsb_release -is`" == "CentOS" ] || [ "`lsb_release -is`" == "RedHat" ]
