@@ -1,4 +1,4 @@
-![LAMP](conf/lamp.png)
+![LAMP](/lamp.png)
 
 Description
 ===========
