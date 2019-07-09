@@ -21,21 +21,5 @@ then
     sudo apt-get -y install php-apcu;
     sudo /etc/init.d/apache2 restart;
     sudo apt-get update && sudo apt-get upgrade;
-
-#this is for redhat centos or any yum supported linux OS 
-#elif [ "`lsb_release -is`" == "CentOS" ] || [ "`lsb_release -is`" == "RedHat" ]
-#then
-    #sudo yum -y install httpd mysql-server mysql-devel php php-mysql php-fpm;
-    #sudo yum -y install epel-release phpmyadmin rpm-build redhat-rpm-config;
-    #sudo yum -y install mysql-community-release-el7-5.noarch.rpm proj;
-    #sudo yum -y install tinyxml libzip mysql-workbench-community;
-    #sudo chmod 777 -R /var/www/;
-    #sudo printf "<?php\nphpinfo();\n?>" > /var/www/html/info.php;
-    #sudo service mysqld restart;
-    #sudo service httpd restart;
-    #sudo chkconfig httpd on;
-    #sudo chkconfig mysqld on;
-
-#else
-    #echo "Unsupported Operating System";
+    
 fi
