@@ -6,7 +6,7 @@
 # Last Updated:
 # ******************************************
 #   this is for Ubuntu or debian or any apt supported Linux OS
-if [ "`lsb_release -is`" == "Ubuntu" ] || [ "`lsb_release -is`" == "Debian" ]
+if [ "`lsb_release -is`" == "Ubuntu" ] || [ "`lsb_release -is`" == "Debian" ] || [ "`lsb_release -is`" == "LinuxMint" ]
 then
     sudo apt-get -y install mysql-server mysql-client mysql-workbench libmysqld-dev;
     sudo apt-get -y install apache2;
